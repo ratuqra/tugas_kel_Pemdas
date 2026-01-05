@@ -1,0 +1,12 @@
+.grafik-card {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.grafik-card img {
+    transition: transform 0.3s ease;
+}
+
+.grafik-card:hover img {
+    transform: scale(1.08);
+}
